@@ -455,14 +455,14 @@ button:focus {
     justify-content: center;
     text-align: center;
     width: 100vw;
-    height: 110vh;
+    height: 112vh;
     background: url(../img/hero-area.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 67%, 0% 100%); }
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 67.5%, 0% 100%); }
 
   .hero-area::before {
     content: "";
